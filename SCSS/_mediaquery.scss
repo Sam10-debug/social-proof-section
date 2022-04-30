@@ -26,10 +26,10 @@
                 align-items: center;
                 gap: 1rem;
                 #firstStar{
-                    margin-right: 0%;
+                    margin: 2% 0;
                 }
                 #secondStar{
-                    margin-right: 0%;
+                    margin: 2% 0;
                 }
                 .right{
                     flex-direction: column;
@@ -40,7 +40,6 @@
                     background: $color-1;
                     align-items: center;
                     width: 100%;
-                    margin: 2% 0;
                     .star{
                         display: flex;
                         gap: 0.3rem;
