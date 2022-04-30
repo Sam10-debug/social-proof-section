@@ -16,6 +16,7 @@
                     text-align: left;
                     font-size: 0.9rem;
                     margin-bottom: 5%;
+                    width: 100%;
                 }
             }
             #secondContainer{
@@ -39,6 +40,7 @@
                     background: $color-1;
                     align-items: center;
                     width: 100%;
+                    margin: 2% 0;
                     .star{
                         display: flex;
                         gap: 0.3rem;
