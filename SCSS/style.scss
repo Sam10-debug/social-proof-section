@@ -1,0 +1,99 @@
+@import 'config';
+main{
+    width: 100%;
+    padding: 1rem 2rem ;
+    margin-top: 2rem;
+    #top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+        #firstContainer{
+            flex-basis: 40%;
+            h1{
+                font-weight: 700;
+                font-size: 2.5rem;
+                color: $color-3;
+            }
+            p{
+                line-height: 1.5;
+                font-weight: 400;
+                color: $color-4;
+            }
+        }
+        #secondContainer{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            justify-content: flex-start;
+            flex-basis: 60%;
+            align-items: flex-end;
+            gap: 1rem;
+            #firstStar{
+                margin-right: 15%;
+            }
+            #secondStar{
+                margin-right: 5%;
+            }
+            .right{
+                display: flex;
+                gap: 2rem;
+                height: 30px;
+                padding: 1rem;
+                border-radius: 0.2rem;
+                background: $color-1;
+                align-items: center;
+                width: fit-content;
+                .star{
+                    display: flex;
+                    gap: 0.3rem;
+                }
+            }
+        }
+    }
+    #bottom{
+        margin-top: 2rem;
+        height: fit-content;
+        display: flex;
+        gap: 1rem;
+        #secondBottom{
+            margin-top: 2%;
+        }
+        #thirdBottom{
+            margin-top: 4%;
+        }
+        .about{
+            background: $color-3;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            height: 240px;
+            section{
+                display: flex;
+                margin-bottom: 1rem;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 0.75rem;
+                    align-items: center;
+                    span+span{
+                        color: $color-2;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+            p{
+                line-height: 1.7;
+                font-weight: 300;
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                margin-right: 1rem;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+@import 'mediaquery';
+
